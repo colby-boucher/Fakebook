@@ -1,0 +1,102 @@
+#logo{
+  max-width: 110px;
+}
+
+#sign-in{
+  border-width: 1px;
+  border-radius:5px;
+  border-color:lightgray;
+  border-style: solid;
+} 
+
+
+#sus label {
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+#sus input {
+  border-color:gray;                            
+}
+
+#vote {
+  background-image: linear-gradient(#F4D588,#EEB934);
+}
+
+#create {
+background-image: linear-gradient(#F5F6F8,#D9DCE1);
+}
+
+#line{
+  position:relative;
+}
+#line p {
+  text-align:center;
+  color:lightslategrey;
+  z-index:1;
+}
+
+#new p{
+  color:lightslategray;
+  text-align:center;
+}
+
+#new p.background{    /*Trust me I tried the most suggested
+                        method of the line behind the text thing
+                        too, but I found this other method here:
+                        https://codepen.io/ericrasch/pen/Irlpm
+                        (last method displayed on that page)*/
+  display: table;
+  white-space: nowrap;
+}
+
+#new p.background :before {
+border-top: 1px solid green;
+content:'';
+display:table-cell;
+position:relative;
+top: 0.5em;
+width: 45%;
+}
+
+#new p.background :after {
+  border-top: 1px solid green;
+  content:'';
+  display:table-cell;
+  position:relative;
+  top: 0.5em;
+  width: 45%;
+  }
+
+
+  #create {
+    border-color:lightslategray;
+    border-width:1px;
+  }
+
+  #footer {
+    max-width: 85%;
+    margin: auto;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-color: lightslategray;
+    border-image: linear-gradient(90deg, #fff,lightgray,transparent) 1;
+    background-image: radial-gradient(at top, ghostwhite,transparent);
+  }
+
+  footer {
+  width:100%;
+  }
+
+  #footer nav ul{
+    justify-content: center;
+    font-size: 0.85em;
+  }
+
+  #footer p{
+    text-align: center;
+    margin-top: 1em;
+    font-size: 0.85em;
+    color:gray;
+  }
+
